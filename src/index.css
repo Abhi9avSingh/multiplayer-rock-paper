@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+html, body, #root { height: 100%; }
+body { @apply bg-gradient-to-b from-pink-50 via-purple-50 to-blue-50; }
+/* Neon glow button */
+.glow-btn {
+  padding: 14px 28px;
+  font-size: 18px;
+  color: #fff;
+  background: #020617;
+  border: 2px solid #38bdf8;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgba(56, 189, 248, 0.4);
+}
+
+.glow-btn:hover {
+     font-size: 18px;
+  box-shadow:
+    0 0 15px #38bdf8,
+    0 0 30px #38bdf8,
+    0 0 60px rgba(56, 189, 248, 0.8);
+  transform: scale(1.08);
+}
+.neon-text {
+
+  text-shadow:
+    0 0 10px #38bdf8,
+    0 0 30px #38bdf8;
+}
+
