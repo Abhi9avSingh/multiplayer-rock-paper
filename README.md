@@ -1,4 +1,4 @@
-# Bubble RPS - Full React Project (Vite + Tailwind)
+ #ROCK PAPER SCISSORS using REACT JS and CSS
 
 ## Setup
 1. Install dependencies:
