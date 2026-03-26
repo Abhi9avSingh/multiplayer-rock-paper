@@ -1,9 +1,25 @@
+import { color } from "framer-motion";
 import React from "react";
-import Player1VsPlayer2 from "../components/Player1VsPlayer2";
+// import Player1VsPlayer2 from "../components/Player1VsPlayer2";
 
 export default function Multiplayer() {
-  return  <Player1VsPlayer2 
-/> ;
+  return (
+  <div
+   style={{
+        height: "100vh",
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "center",
+        gap: "20px",
+        fontSize: "40px",
+         
+      }}>
+  <h1> Multiplayer Coming Soon</h1>
+  </div>);
+   
+  
+}
   // (
   //   <div
   
@@ -35,7 +51,4 @@ export default function Multiplayer() {
   //   color: "#000000",        
   //   textShadow: "0 0 12px #38bdf8, 0 0 30px #38bdf8"
   // }}
-  //     >Multiplayer Coming Soon</h1>
-  //   </div>
-  // );
-}
+
